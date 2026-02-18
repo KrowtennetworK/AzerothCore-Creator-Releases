@@ -1,4 +1,7 @@
-# AzerothCore Creator
+<h1 align="left">
+  <img src="assets/logo-acore.png" width="48" height="48" style="vertical-align: left;" />
+  AzerothCore Creator
+</h1>
 
 A TrinityCreator-style desktop tool built specifically for AzerothCore.
 
