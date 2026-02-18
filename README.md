@@ -117,4 +117,4 @@ Thank you to the AzerothCore team for maintaining a core worthy of dedicated too
 
 ---
 
-— Kris
+— Krowten
