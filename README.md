@@ -118,3 +118,26 @@ Thank you to the AzerothCore team for maintaining a core worthy of dedicated too
 ---
 
 — Krowten
+
+
+SCREENSHOTS
+
+<img width="2551" height="1388" alt="QuestTab" src="https://github.com/user-attachments/assets/8525c4ab-908e-4577-b4e2-8150b470c061" />
+
+<img width="2551" height="1388" alt="QuestTab" src="https://github.com/user-attachments/assets/8525c4ab-908e-4577-b4e2-8150b470c061" />
+
+<img width="2554" height="1390" alt="ItemTab" src="https://github.com/user-attachments/assets/f50d8820-e53c-4e1a-bf90-3d71ec1f280f" />
+
+<img width="2554" height="1390" alt="ItemTab" src="https://github.com/user-attachments/assets/f50d8820-e53c-4e1a-bf90-3d71ec1f280f" />
+
+<img width="2558" height="1390" alt="FindItem" src="https://github.com/user-attachments/assets/a0f25f0a-db77-419f-83cb-5a6b7d9c38de" />
+
+<img width="2558" height="1390" alt="FindItem" src="https://github.com/user-attachments/assets/a0f25f0a-db77-419f-83cb-5a6b7d9c38de" />
+
+<img width="1182" height="767" alt="CreatureTabSQL" src="https://github.com/user-attachments/assets/1556268e-169b-499b-a851-ca06cf85f8f9" />
+
+<img width="1182" height="767" alt="CreatureTabSQL" src="https://github.com/user-attachments/assets/1556268e-169b-499b-a851-ca06cf85f8f9" />
+
+<img width="1182" height="768" alt="CreatureTab" src="https://github.com/user-attachments/assets/6b231b33-8934-4dde-9104-f689aac7593b" />
+
+<img width="1182" height="768" alt="CreatureTab" src="https://github.com/user-attachments/assets/6b231b33-8934-4dde-9104-f689aac7593b" />
