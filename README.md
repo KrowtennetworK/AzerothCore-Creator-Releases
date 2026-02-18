@@ -125,7 +125,10 @@ Thank you to the AzerothCore team for maintaining a core worthy of dedicated too
 — Krowten
 
 
-SCREENSHOTS
+**SCREENSHOTS**
+
+<img width="1166" height="400" alt="itempreview" src="https://github.com/user-attachments/assets/7a9960b4-ff30-40cb-ae86-8df2e3af417f" />
+
 
 <img width="2551" height="1388" alt="QuestTab" src="https://github.com/user-attachments/assets/8525c4ab-908e-4577-b4e2-8150b470c061" />
 
