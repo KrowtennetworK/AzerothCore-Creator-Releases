@@ -1,152 +1,114 @@
 <h1 align="left">
-  <img src="assets/logo-acore.png" width="48" height="48" style="vertical-align: left;" />
+  <img src="assets/logo-acore.png" width="48" height="48" style="vertical-align: middle;" />
   AzerothCore Creator
 </h1>
 
-[![Latest Release](https://img.shields.io/github/v/release/KrowtennetworK/AzerothCoreCreator?include_prereleases)](https://github.com/KrowtennetworK/AzerothCoreCreator/releases/latest)
+A modern desktop toolkit for building and managing AzerothCore content — without wrestling raw SQL.
 
+---
+
+## 🚧 Currently in Beta
+
+[![Latest Release](https://img.shields.io/github/v/release/KrowtennetworK/AzerothCoreCreator?include_prereleases)](https://github.com/KrowtennetworK/AzerothCoreCreator/releases/latest)
 [![Discord](https://img.shields.io/discord/736685134492729475?logo=discord&logoColor=white)](https://discord.gg/nVFp9ec "Our community hub on Discord")
 
-A TrinityCreator-style desktop tool built specifically for AzerothCore.
+> ⚠️ **Run Setup.exe to recieve automatic updates**
 
 ---
 
-## About This Project
-
-AzerothCore is one of the most stable, well-maintained 3.3.5 cores available. Over time, it became clear that while the core itself is powerful, there was no dedicated desktop application designed specifically around its database structure for streamlined content creation.
-
-TrinityCreator proved that a structured visual workflow for database editing works extremely well. AzerothCore Creator was built with that same philosophy — but tailored exclusively to AzerothCore.
-
-This is not a multi-core abstraction tool.
-This is not a profile-based editor.
-
-Everything is hardcoded specifically to AzerothCore’s tables and schema.
-
-The goal is simple:
-
-- Reduce manual SQL editing
-- Lower the barrier to entry for content creators
-- Provide a structured workflow for database editing
-- Contribute long-term tooling to the AzerothCore ecosystem
+## 🖼 Interface Preview
 
 ---
 
-## Current Status
+### 🧟 Creature Editor
 
-Beta Release
+<p align="center">
+  <img src="assets/CreatureTab.png" width="95%" />
+</p>
 
-The project is actively under development. Core systems are implemented, and feature parity with TrinityCreator is in progress.
+Build creatures the sane way.
 
-Estimated completion level: ~80% of TrinityCreator’s core functionality.
+The Creature Editor provides structured support for AzerothCore’s `creature_template` table with beginner-friendly field grouping, role presets, faction handling, and clear flag toggles.
 
----
+The layout mirrors classic Trinity-style tools — but maps cleanly and directly to AzerothCore’s schema.
 
-## Features (Beta)
-
-### Creature Editor
-- Structured creature_template support
-- Role preset dropdown
-- Faction and flag handling
-- Beginner-friendly layout
-- Direct AzerothCore column mapping
-
-### Item Editor
-- Trinity-style item layout
-- Toggle-based flag, class, race, and resistance controls
-- Field grouping for clarity
-- Structured database alignment
-
-### Database Alignment
-- Hardcoded AzerothCore table support
-- No profile switching
-- Direct mapping to AzerothCore schema
-- SQL preview generation
-
-### Interface
-- Windows desktop application (WPF)
-- Clean, organized layout
-- Designed for usability without sacrificing structure
+No guesswork. No mystery flags. No raw table hunting.
 
 ---
 
-## Philosophy
+### 🧾 SQL Preview Generation
 
-AzerothCore Creator is designed as a contribution to the AzerothCore community.
+<p align="center">
+  <img src="assets/CreatureTabSQL.png" width="95%" />
+</p>
 
-It is not meant to replace developer workflows.
-It is meant to empower:
+Every change generates clean, readable SQL with transactional safety.
 
-- Server owners
-- Small teams
-- Content creators
-- New contributors intimidated by raw SQL
+Preview it. Export it. Or push it straight to your database.
 
-The intention is long-term development with continued feature expansion.
+Because your tools should work with you — not against you.
 
 ---
 
-## Installation
+### 🎒 Item Editor (Trinity-Style Layout)
 
-1. Go to the Releases section of this repository.
-2. Download the latest `.zip` build.
-3. Extract the archive.
-4. Run the executable.
+<p align="center">
+  <img src="assets/itempreview.png" width="95%" />
+</p>
 
-Make sure your AzerothCore database credentials are configured correctly before use.
+<p align="center">
+  <img src="assets/ItemTab.png" width="95%" />
+</p>
 
----
+The Item Editor follows a familiar Trinity-style layout with full AzerothCore alignment.
 
-## Important Notes
+Toggle-based flags, class restrictions, race restrictions, and magic resistances make configuration intuitive — no bitmask math required.
 
-This repository contains compiled builds only.
+Live tooltip preview ensures your item looks correct before it ever hits the database.
 
-The source repository is maintained privately during active development.
-
-Feedback, suggestions, and feature ideas are welcome.
-
----
-
-## Roadmap
-
-- Full feature parity with TrinityCreator
-- Expanded quest support
-- Additional database tooling
-- Workflow enhancements tailored to AzerothCore
-- Continued UI refinement
+Design it. See it. Ship it.
 
 ---
 
-## Acknowledgment
+### 🔎 Integrated Item Search
 
-TrinityCreator demonstrated the value of structured database tooling. AzerothCore Creator builds on that concept and adapts it specifically for AzerothCore’s ecosystem.
+<p align="center">
+  <img src="assets/FindItem.png" width="70%" />
+</p>
 
-Thank you to the AzerothCore team for maintaining a core worthy of dedicated tooling.
+Quick lookup by name or ID keeps your workflow moving.
+
+Cross-reference rewards, requirements, and dependencies without jumping between tools.
+
+Less alt-tabbing. More building.
 
 ---
 
-— Krowten
+### 📜 Quest Editor with Live Preview
 
+<p align="center">
+  <img src="assets/QuestTab.png" width="95%" />
+</p>
 
-**SCREENSHOTS**
+Structured support for `quest_template` with organized reward handling, requirement configuration, and a live quest preview panel.
 
-<img width="1166" height="400" alt="itempreview" src="https://github.com/user-attachments/assets/7a9960b4-ff30-40cb-ae86-8df2e3af417f" />
+Build complex quest chains without losing track of what connects to what.
 
+---
 
-<img width="2551" height="1388" alt="QuestTab" src="https://github.com/user-attachments/assets/8525c4ab-908e-4577-b4e2-8150b470c061" />
+## 🎯 Built Specifically for AzerothCore
 
+- ✔ Hardcoded for AzerothCore (not generic Trinity tooling)
+- ✔ Designed for WotLK (3.3.5a)
+- ✔ Modern UI over legacy workflows
+- ✔ Built with long-term expansion in mind
 
-<img width="2554" height="1390" alt="ItemTab" src="https://github.com/user-attachments/assets/f50d8820-e53c-4e1a-bf90-3d71ec1f280f" />
+---
 
+## 💬 Community & Feedback
 
+Have an idea? Found a bug? Want a feature?
 
-<img width="2558" height="1390" alt="FindItem" src="https://github.com/user-attachments/assets/a0f25f0a-db77-419f-83cb-5a6b7d9c38de" />
+Join the Discord and help shape the roadmap:
 
-
-
-<img width="1182" height="767" alt="CreatureTabSQL" src="https://github.com/user-attachments/assets/1556268e-169b-499b-a851-ca06cf85f8f9" />
-
-
-
-<img width="1182" height="768" alt="CreatureTab" src="https://github.com/user-attachments/assets/6b231b33-8934-4dde-9104-f689aac7593b" />
-
-
+👉 https://discord.gg/nVFp9ec
